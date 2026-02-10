@@ -1,0 +1,18 @@
+/run/initialize
+
+/vis/open OGL
+/vis/drawVolume
+
+# ---- Classic Geant4 appearance ----
+/vis/viewer/set/background black
+/vis/viewer/set/style surface
+
+# ---- Axes ----
+# /vis/scene/add/axes 0 0 0 20 cm
+
+/vis/viewer/zoom 1.2
+/vis/viewer/set/autoRefresh true
+
+
+/run/beamOn 1
+

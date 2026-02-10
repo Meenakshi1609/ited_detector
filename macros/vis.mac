@@ -1,0 +1,19 @@
+/run/initialize
+
+/vis/open OGL
+/vis/drawVolume
+
+# ---- Classic Geant4 appearance ----
+/vis/viewer/set/background black
+/vis/viewer/set/style surface
+
+# ---- Axes ----
+/vis/scene/add/axes 0 0 0 20 cm
+
+/vis/viewer/zoom 1.2
+/vis/viewer/set/autoRefresh true
+
+/vis/scene/add/trajectories smooth
+/vis/modeling/trajectories/create/drawByCharge
+/vis/modeling/trajectories/drawByCharge-0/default/setDrawStepPts true
+/vis/modeling/trajectories/drawByCharge-0/default/setStepPtsSize 2

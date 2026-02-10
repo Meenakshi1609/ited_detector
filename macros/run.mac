@@ -1,0 +1,15 @@
+# -------------------------------
+# Basic run macro for data taking
+# -------------------------------
+
+# Initialize geometry + physics
+/run/initialize
+
+# Use single thread (stable + reproducible)
+/run/numberOfThreads 1
+
+# Disable visualization (important for batch runs)
+ // /vis/disable
+
+# Run events
+/run/beamOn 1
