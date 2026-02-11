@@ -4,4 +4,13 @@ The  scatter plane has dimensions **50 × 50 × 15 mm<sup>3</sup>**
 . The absorber plane has 4 compton modules each having a dimension as mentioned.
 The water phantom is about **10 × 10 × 20 mm<sup>3</sup>**
 
+
+The ITED detector geometry is adapted from:  
+Towards machine learning aided
+real‐time range imaging in proton
+therapy
+Jorge Lerendegui‐Marco * , Javier Balibrea‐Correa, Víctor Babiano‐Suárez, Ion Ladarescu &
+César Domingo‐Pardo
+
+
 <img width="860" height="567" alt="Screenshot 2026-02-10 180402" src="https://github.com/user-attachments/assets/e648337a-7a24-4436-88b1-b0e5e93db262" />
